@@ -1,18 +1,58 @@
-import React,{useState,useRef} from 'react'
+import React,{useState,useRef, useEffect} from 'react'
 import {View,Image, Text,ScrollView, TouchableOpacity} from 'react-native'
-import {Header,Button,Overlay} from 'react-native-elements'
+import {Header,Overlay} from 'react-native-elements'
 import {Icon} from 'native-base'
 import { useNavigation } from "@react-navigation/native";
 import CardInfo from '../Components/CardInfo'
 import RBSheet from "react-native-raw-bottom-sheet";
+
+
+const img = "https://static.theceomagazine.net/wp-content/uploads/2018/10/15093202/elon-musk-700x467.jpg"
+const api = 
+[
+  {
+    titulo:"Sócia, a representar angola, compete por um lugar na final regional do Seedstars World 2020/21",
+    data:"03/03/2021",
+    descricao:"Como vencedora da edição do Seedstars em Angola, a Sócia competirá por um lugar na final mundial. Para isso, deverá antes suplantar outras startups africanas e mostrar que está pronta para competir pela chance de ganhar $ 500k em investimentos no Seedstars World Competition 2020/21!",
+    imagem:"https://www.menosfios.com/wp-content/uploads/2020/11/Socia-Vencedora-Seedstars-Luanda-2020-4.jpeg"
+  },
+  {
+    titulo:"A tecnologia pode ser um motor para o progresso humano? A Huawei responde…",
+    data:"04/03/2021",
+    descricao:"A tecnologia traz benefícios significativos para a humanidade e a tecnologia digital pode ser uma ferramenta essencial para ajudar as Nações Unidas a alcançar os seus Objetivos de Desenvolvimento Sustentável (ODSs). Esta foi a opinião da vice-presidente sénior e membro do conselho da Huawei, Catherine Chen, no seu discurso de abertura, no recente Fórum Conectado para a Prosperidade Compartilhada em Xangai, China.",
+    imagem:"https://www.menosfios.com/wp-content/uploads/2021/03/Huawei-Tour.jpg"
+  },
+  {
+    titulo:"UNITEL Net Shows, foi lançada oficialmente a aplicação para shows e outros eventos culturais",
+    data:"01/03/2021",
+    descricao:"Como confinamento, que esteve em alta em 2020, os eventos culturais foram limitados. Os fãs e artistas foram obrigados a procurar novas formas de interação. Olhando para isso, a UNITEL lançou no final de Fevereiro (dia 26) a aplicação de streaming “UNITEL Net Shows”, destinada para os amantes da Cultura/Arte.",
+    imagem:"https://www.menosfios.com/wp-content/uploads/2021/03/Unitel-Netshows.jpg"
+  },
+  {
+    titulo:"Relançar a economia pós-covid através das novas tecnologias",
+    data:"01/03/2021",
+    descricao:"Com a pandemia que não vai sair das nossas vidas tão cedo e com o impacto terrível que teve nas economias dos países – no nosso país pior ainda pela já difícil situação pré-Covid – o desafio agora é retomar a produção de produtos dolorosamente necessários à sobrevivência dos cidadãos e ao mesmo tempo manter as regras de prevenção da Covid. Ou seja, aumentar a produção com menos gente a trabalhar, de forma urgente, porque os níveis de fome e miséria nunca foram tão altos como agora.",
+    imagem:"https://www.menosfios.com/wp-content/uploads/2021/03/smart-farmin.jpg"
+  },
+  {
+    titulo:"Segunda edição do Hackaton em Cabinda marcada para 27 de Fevereiro",
+    data:"27/02/2021",
+    descricao:"O Grupo de desenvolvedores do Google (GDG Cabinda) e a TchiowaHub realizarão no dia 27 de Fevereiro de 2021 pelas 09h00 no auditório da Instituto Superior Politécnico Lusíada de Cabinda , a segunda edição do Hackhaton em Cabinda.A primeira edição do Hackathon em 2020 teve como tema a Covid-19,nesta segunda edição será de modalidade livre onde serão apresentadas soluções sobre problemas reais da sociedade usando a tecnologia.",
+    imagem:"https://www.menosfios.com/wp-content/uploads/2021/02/Hackaton-Cabinda-2.jpeg"
+  },
+]
+
+
 
 const azul = '#4db8ff'
 export default function Home() 
 {
   const [visivel, setvisivel] = useState(false)
   const [categoria, setcategoria] = useState("Todas as categorias")
+  const [data, setdata] = useState(api)
   const navigation = useNavigation()
   const modal = () =>{ setvisivel(!visivel)}
+  
 
   const cat =(text)=>
   {
@@ -41,8 +81,14 @@ export default function Home()
       </Header>
       
         <ScrollView showsVerticalScrollIndicator={false}>
-          <CardInfo/>
-          <CardInfo/>
+          {
+            data.map((item,index)=>
+            (
+              <CardInfo item={item} key={index}/>
+            )
+            )
+          }
+          
         </ScrollView>
 
       <TouchableOpacity style={{backgroundColor:azul,width:60,height:60,borderRadius:30,
@@ -167,3 +213,8 @@ export default function Home()
     </View>
   );
 }
+
+/*
+<CardInfo/>
+          <CardInfo/>
+*/
