@@ -5,36 +5,33 @@
 
 > Home screen
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-1.jpg)
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-1.jpg" alt="drawing" width="200"/>
 
 > Home screen
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-2.jpg)
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-2.jpg" alt="drawing" width="200"/>
 
 > Home screen - Category
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-3.jpg)
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-3.jpg" alt="drawing" width="200"/>
 
 > Home screen - Modal
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-4.jpg)
-
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-4.jpg" alt="drawing" width="200"/>
 > Setting screen
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-5.jpg)
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-5.jpg" alt="drawing" width="200"/>
 
 > Detail screen
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-6.jpg)
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-6.jpg" alt="drawing" width="200"/>
 
 > Comment screen
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-7.jpg)
-
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-7.jpg" alt="drawing" width="200"/>
 > Search screen
 
-![Home](https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-8.jpg)
-> Pic 
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-8.jpg" alt="drawing" width="200"/>
 
 # Libraries
 
