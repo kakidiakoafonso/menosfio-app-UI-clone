@@ -5,33 +5,33 @@
 
 > Home screen
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-1.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-1.jpg" alt="drawing" width="400"/>
 
 > Home screen
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-2.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-2.jpg" alt="drawing" width="400"/>
 
 > Home screen - Category
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-3.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-3.jpg" alt="drawing" width="400"/>
 
 > Home screen - Modal
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-4.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-4.jpg" alt="drawing" width="400"/>
 > Setting screen
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-5.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-5.jpg" alt="drawing" width="400"/>
 
 > Detail screen
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-6.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-6.jpg" alt="drawing" width="400"/>
 
 > Comment screen
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-7.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-7.jpg" alt="drawing" width="400"/>
 > Search screen
 
-<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-8.jpg" alt="drawing" width="200"/>
+<img src="https://raw.githubusercontent.com/kakidiakoafonso/menosfio-app-UI-clone/main/screenshots/Image-8.jpg" alt="drawing" width="400"/>
 
 # Libraries
 
